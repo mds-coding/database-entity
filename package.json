@@ -1,0 +1,21 @@
+{
+  "license": "ISC",
+  "version": "1.0.0",
+  "author": "mdos-san",
+  "name": "@mds-coding/database-entity",
+  "description": "DatabaseEntity class",
+  "type": "module",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
